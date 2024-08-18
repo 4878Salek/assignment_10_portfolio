@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samim Salek Portfolio</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      header {
+        background-color: blueviolet;
+        height: 25vh;
+        padding: 3vh;
+        overflow: hidden;
+        margin-bottom: 5px;
+      }
+      header #p1 {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+      }
+      header #span1 {
+        color: rgb(251, 9, 9);
+        font-weight: bold;
+      }
+      header #p2 {
+        text-align: center;
+        color: black;
+        font-weight: bold;
+      }
+      header #span2 {
+        color: white;
+      }
+      #navbar {
+        background-color: green;
+        height: auto;
+        width: 90vw;
+        margin-left: 5vw;
+        border-radius: 50px;
+        overflow: hidden;
+        margin-bottom: 5px;
+      }
+      #navbar li {
+        display: inline;
+        margin: 10px;
+        text-align: center;
+        color: white;
+      }
+      #navbar li:hover {
+        background-color: blue;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px 15px red;
+      }
+      #sec1 {
+        background-color: red;
+        height: auto;
+        width: 90vw;
+        margin-left: 5vw;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-bottom: 5px;
+      }
+      #p3{
+        width: 80vw;
+        margin-left: 7vw;
+        color: white;
+      }
+      #p3:hover {
+        color: rgb(28, 2, 220);
+      }
+      #sec2 {
+        width: 90vw;
+        margin-left: 5vw;
+        margin-bottom: 5px;
+        height: auto;
+        background-color: aquamarine;
+        border-radius: 10px;
+      }
+      h3 {
+        margin-left: 5vw;
+      }
+      textarea {
+        width: 80vw;
+        margin-left: 5vw;
+        height: 20vh;
+      }
+      button{
+        margin-left: 5vw;
+        background-color: green;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        color: white;
+        padding: 3px;
+      }
+      button:hover{
+        background-color: blue;
+        color:black;
+      }
+      footer{
+        background-color: blue;
+        height: auto;
+        text-align: center;
+      }
+      footer:hover{
+        background-color: blueviolet;
+        color:white;
+      }
+      #aboutMe,#certificates{
+        text-decoration: none;
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p id="p1">Ahmad Samim Salek Lotfi <span id="span1">Portfolio</span></p>
+      <p id="p2">
+        Front-End Web Developer / <span id="span2">/ Flutter Developer</span>
+      </p>
+    </header>
+    <nav id="navbar">
+      <ul>
+        <li><a id="aboutMe" href="aboutMe.html">About Me</a> </li>
+        <li> <a id="certificates" href="certificates.html">Certificates</a></li>
+        <li>Projects</li>
+        <li>Pictures</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <section id="sec1">
+      <main>
+        <p id="p3">
+          Web development: Web development is a process that we make a web by
+          using some programming language like html,css,javaScript and etc...!
+          <br />
+          HTML:for structure <br />
+          CSS:for Design <br />
+          JAVASCRIPT:for Functionality
+        </p>
+      </main>
+    </section>
+    <section id="sec2">
+      <h3>Send Me A Massage</h3>
+      <textarea placeholder="write your text"></textarea>
+      <button value="send">Send</button>
+    </section>
+    <footer>
+        <p>Never Say Never In Your Life</p>
+    </footer>
+  </body>
+</html>
